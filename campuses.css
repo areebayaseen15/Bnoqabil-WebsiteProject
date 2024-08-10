@@ -176,6 +176,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 30px;
   }
   .loc-details {
     padding: 0.1em 0 0 1.5em;
