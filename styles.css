@@ -1181,7 +1181,6 @@
     height: 70px;
   }
   main .about-section #flex2 .checkbox {
-    /* justify-content: space-around; */
     padding-left: 30px;
   }
   main .about-section #flex2 .checkbox i {
@@ -1265,7 +1264,7 @@
       width: 100%;
       height: auto;
       border-radius: 20px;
-      bottom: 50em;
+      bottom: 70em;
       position: relative;
     }
   
@@ -2134,7 +2133,7 @@ footer {
          border-radius: 10px;
          border-width: 1px;
          position: relative;
-        top: 130em;
+        top: 115em;
        }
      
        .container {
