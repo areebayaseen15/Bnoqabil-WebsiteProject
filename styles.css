@@ -1701,7 +1701,7 @@
   /* review section */
 @media (max-width: 480px) {
  .main{
-  height: auto;
+  height: 900vh;
  }
   .main section {
     position: relative;
@@ -2001,220 +2001,7 @@
 
 
 /* review end */
-/* review section Querry*/
-@media (max-width: 480px) {
-    .main section {
-      position: relative;
-      /* bottom: 100em; */
-      padding-top: 0;
-      margin-top: 0;
-    }
-  
-    .main section .reviews h1 {
-      font-size: 24px;
-    }
-  
-    .main section .reviews img {
-      margin: 0 auto 20px;
-      display: block;
-    }
-  
-    .main section .reviews img:after,
-    .main section .reviews img:before {
-      content: "";
-    }
-  
-    .main section .reviews p {
-      padding-left: 5vw;
-      font-size: 0.9em;
-    }
-  
-    .main section .reviews #p2,
-    .main section .reviews #p3 {
-      padding-left: 5vw;
-    }
-  
-    .main section .review-flex {
-      flex-direction: column;
-      padding: 10px;
-      margin: 10px;
-    }
-  
-    .main section .review-flex .review1,
-    .review2,
-    .review3 {
-      margin: 10px 0;
-      padding: 10px;
-    }
-  
-    .main section .review-flex .review1 img,
-    .review2 img,
-    .review3 img {
-      width: 80px;
-      height: 80px;
-      margin: 0 auto;
-      bottom: 20px;
-    }
-  
-    .main section .review-flex .review1 #stName,
-    .review2 #stName,
-    .review3 #stName {
-      font-size: 16px;
-    }
-  
-    .main section .review-flex .review1 #line,
-    .review2 #line,
-    .review3 #line {
-      font-size: 30px;
-    }
-  
-    .main section .review-flex,
-    .review3 #line #student {
-      text-align: center;
-    }
-  }
-  
-  @media (min-width: 481px) and (max-width: 769px) {
-    .main section {
-      position: relative;
-      /* top: 120em; */
-      padding-top: 0;
-    }
-    .main section .reviews h1 {
-      font-size: 24px;
-    }
-  
-    .main section .reviews img {
-      margin: 0 auto 20px;
-      display: block;
-    }
-  
-    .main section .reviews img:after,
-    .main section .reviews img:before {
-      content: "";
-    }
-  
-    .main section .reviews p {
-      padding-left: 5vw;
-      font-size: 0.9em;
-    }
-  
-    .main section .reviews #p2,
-    .main section .reviews #p3 {
-      padding-left: 5vw;
-    }
-  
-    .main section .review-flex {
-      flex-direction: column;
-      padding: 20px;
-      margin: 10px;
-    }
-  
-    .main section .review-flex .review1,
-    .review2,
-    .review3 {
-      margin: 10px 0;
-      padding: 10px;
-    }
-  
-    .main section .review-flex .review1 img,
-    .review2 img,
-    .review3 img {
-      width: 80px;
-      height: 80px;
-      margin: 0 auto;
-      bottom: 20px;
-    }
-  
-    .main section .review-flex .review1 #stName,
-    .review2 #stName,
-    .review3 #stName {
-      font-size: 16px;
-    }
-  
-    .main section .review-flex .review1 #line,
-    .review2 #line,
-    .review3 #line {
-      font-size: 30px;
-    }
-  
-    .main section .review-flex,
-    .review3 #line #student {
-      text-align: center;
-    }
-  }
-  
-  @media (min-width: 769px) and (max-width: 1042px) {
-    .main section {
-      position: relative;
-      top: 110em;
-      padding-top: 0;
-    }
-  
-    .main section .reviews h1 {
-      font-size: 24px;
-    }
-  
-    .main section .reviews img {
-      margin: 0 auto 10px;
-      display: block;
-    }
-  
-    .main section .reviews img:after,
-    .main section .reviews img:before {
-      content: "";
-  
-      .main section .reviews p {
-        padding-left: 5vw;
-        font-size: 0.9em;
-      }
-  
-      .main section .reviews #p2,
-      .main section .reviews #p3 {
-        padding-left: 5vw;
-      }
-  
-      .main section .review-flex {
-        flex-direction: column;
-        /* padding: 10px; */
-        padding-bottom: 0;
-        margin: 5px;
-      }
-  
-      .main section .review-flex .review1,
-      .review2,
-      .review3 {
-        margin: 10px 0;
-        padding: 10px;
-      }
-  
-      .main section .review-flex .review1 img,
-      .review2 img,
-      .review3 img {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto;
-        bottom: 20px;
-      }
-  
-      .main section .review-flex .review1 #stName,
-      .review2 #stName,
-      .review3 #stName {
-        font-size: 16px;
-      }
-  
-      .main section .review-flex .review1 #line,
-      .review2 #line,
-      .review3 #line {
-        font-size: 30px;
-      }
-  
-      .main section .review-flex,
-      .review3 #line #student {
-        text-align: center;
-      }
-    }
-  }
+
   
   /* review end */
   /* mainend */
@@ -2265,7 +2052,7 @@
   justify-content: space-evenly;
   background-color: black;
   color: var(--secondary-color);
-  padding: 40px; */
+  padding: 40px; 
    padding: 50px;
   position: relative;
   /* z-index: auto; */
@@ -2343,7 +2130,7 @@ footer {
          border-radius: 10px;
          border-width: 1px;
          position: relative;
-        top: 120em;
+        top: 250em;
        }
      
        .container {
@@ -2425,7 +2212,7 @@ footer {
          border-radius: 20px;
          border-width: 1.5px;
          position: relative;
-         top: 110em;
+         top: 150em;
        }
      
        .container {
