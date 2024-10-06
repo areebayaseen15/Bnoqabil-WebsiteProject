@@ -1264,7 +1264,7 @@
       width: 100%;
       height: auto;
       border-radius: 20px;
-      bottom: 70em;
+      bottom: 100em;
       position: relative;
     }
   
@@ -2133,7 +2133,7 @@ footer {
          border-radius: 10px;
          border-width: 1px;
          position: relative;
-        top: 115em;
+        top: 125em;
        }
      
        .container {
