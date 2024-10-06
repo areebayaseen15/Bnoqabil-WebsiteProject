@@ -1215,16 +1215,15 @@
     }
   
     .main .about-section .flex1 #img6 {
-      width: 100%;
+      /* width: 100%;
       height: auto;
       border-radius: 20px;
       margin-right: 0;
       margin-top: 10px;
       margin-bottom: 20px;
       position: relative;
-      /* top: 0em; */
-      margin-top: 0;
-      /* display: none; */
+      margin-top: 0; */
+      display: none;
     }
   
     .main .about-section #flex2 .checkbox {
@@ -1261,13 +1260,13 @@
       top: 30em;
       position: relative;
     }
-    .main .about-section .flex1 #img6 {
+    /* .main .about-section .flex1 #img6 {
       width: 100%;
       height: auto;
       border-radius: 20px;
       bottom: 100em;
       position: relative;
-    }
+    } */
   
     .main .about-section .flex1 #img5 {
       width: 100%;
