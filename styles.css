@@ -2130,7 +2130,7 @@ footer {
          border-radius: 10px;
          border-width: 1px;
          position: relative;
-        top: 250em;
+        top: 0em;
        }
      
        .container {
@@ -2212,7 +2212,7 @@ footer {
          border-radius: 20px;
          border-width: 1.5px;
          position: relative;
-         top: 150em;
+         top: 110em;
        }
      
        .container {
