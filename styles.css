@@ -169,7 +169,7 @@
     .nav-main .nav-buttons {
       flex-direction: row;
       margin: 10px;
-      /* width: 200px; */
+      width: 200px;
     }
   
     .nav-main .nav-buttons button {
@@ -224,16 +224,17 @@
     }
   
     .nav-main .nav-buttons {
-      flex-direction: column;
+      /* flex-direction: column; */
       /* margin: 10px 0; */
+      display: none;
     }
-  
+/*   
     .nav-main .nav-buttons button {
       width: 30%;
       margin-left: 170px;
       padding-left: 0px;
       margin-right: 100px;
-    }
+    } */
   
     .nav-main .nav-links .dropdown-content,
     .nav-main .nav-links .dropdown-content2 {
