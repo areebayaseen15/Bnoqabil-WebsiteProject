@@ -1199,10 +1199,14 @@
   /* Media queerry for about us */
   
   @media (max-width: 480px) {
+    .main .about-section{
+      overflow-x:hidden ;
+      margin-left: 0;
+    }
     .main .about-section .flex1 {
       display: flex;
       flex-direction: column-reverse;
-      padding: 10px;
+      /* padding: 10px; */
     }
   
     .main .about-section .flex1 .inner-flex {
@@ -1701,7 +1705,7 @@
   /* review section */
 @media (max-width: 480px) {
  .main{
-  height: 820vh;
+  height: 800vh;
  }
   .main section {
     position: relative;
