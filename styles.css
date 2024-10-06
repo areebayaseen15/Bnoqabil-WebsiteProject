@@ -1701,7 +1701,7 @@
   /* review section */
 @media (max-width: 480px) {
  .main{
-  height: 900vh;
+  height: 800vh;
  }
   .main section {
     position: relative;
