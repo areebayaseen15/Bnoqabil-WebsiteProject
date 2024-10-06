@@ -190,7 +190,7 @@
       padding-left: 0px;
     }
     .nav-top {
-      flex-direction:row;
+      flex-direction:column;
       align-items: center;
     }
     .nav-top .contact-info,
@@ -200,7 +200,7 @@
     }
     .nav-top .contact-info,
     .nav-top .social-media {
-      margin: 10px;
+      margin: 5px;
     }
   
     .nav-main {
