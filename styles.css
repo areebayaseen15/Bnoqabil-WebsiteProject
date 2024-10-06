@@ -1701,7 +1701,7 @@
   /* review section */
 @media (max-width: 480px) {
  .main{
-  height: 800vh;
+  height: 820vh;
  }
   .main section {
     position: relative;
@@ -2130,7 +2130,7 @@ footer {
          border-radius: 10px;
          border-width: 1px;
          position: relative;
-        top: 0em;
+        top: 110em;
        }
      
        .container {
