@@ -1265,7 +1265,7 @@
       width: 100%;
       height: auto;
       border-radius: 20px;
-      bottom: 70em;
+      bottom: 50em;
       position: relative;
     }
   
@@ -1705,7 +1705,7 @@
   /* review section */
 @media (max-width: 480px) {
  .main{
-  height: 800vh;
+  height: 810vh;
  }
   .main section {
     position: relative;
@@ -2134,7 +2134,7 @@ footer {
          border-radius: 10px;
          border-width: 1px;
          position: relative;
-        top: 110em;
+        top: 130em;
        }
      
        .container {
